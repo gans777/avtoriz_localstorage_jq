@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>авторизация на local.storage</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css?rnd=213">
+</head>
+<body>
+
+<div class="container">
+	<div class="row">
+		<div class="col">
+	<button type="button" class="btn btn-primary registration">регистрация</button>
+</div>
+    <div class="col">
+    	<button type="button" class="btn btn-primary login_pass">авторизация</button>
+    </div>
+</div>
+<!-- фома авторизации -->
+<div class="avtoriz_form">
+	Логин <input name="avtoriz_login" type="text" ><br>
+Пароль <input name="avtoriz_password" type="password" ><br>
+
+<button type="button" class="btn btn-secondary enter_log_pass">Войти</button>
+</div>
+<!-- end форма авторизации -->
+	<!-- форма регистрации -->
+<div class="reg_form">
+	<div class="system_tablo_mess"></div>
+Логин <input name="reg_login" type="text" ><span></span><br>
+Пароль <input name="reg_password" type="password" ><br>
+<button name="submit"  class="btn btn-secondary reg_button">Зарегистрироваться</button>
+</div>
+<!--end форма регистрации -->
+<div class="reg_saved">сохранено</div>
+</div><!--end container-->
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/819122889b.js"></script>
+<!--<script src="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js"></script>-->
+
+
+	<script src="index.js"></script>	
+</body>
+</html>

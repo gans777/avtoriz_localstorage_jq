@@ -1,0 +1,16 @@
+body {
+	padding: 25px;
+}
+.reg_form {
+	display: none;
+	padding: 25px;
+}
+.reg_saved {
+	display: none;
+	padding: 25px;
+	background-color: #5ac18e;
+}
+.avtoriz_form {
+	display: none;
+	padding: 25px;
+}
